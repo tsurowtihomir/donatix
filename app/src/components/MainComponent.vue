@@ -38,16 +38,6 @@ export default {
 };
 </script>
 
-<style>
-.content{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  text-align: center;
-}
-.cardComponent{
-  flex: 1 0 18%;
-  display: flex;
-  justify-content: center;
-}
+<style lang="scss">
+@import "../styles/MainComponent.scss";
 </style>
