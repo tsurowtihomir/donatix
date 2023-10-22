@@ -8,6 +8,7 @@
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(315deg, #ffffff 0%, #54995c 100%);
   .img {
     max-width: 100%;
   }
@@ -23,7 +24,7 @@
   }
   .desc {
     margin-top: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     font-size: 12px;
     padding: 0px 10px 0px 10px;
   }

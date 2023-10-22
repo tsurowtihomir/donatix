@@ -1,11 +1,31 @@
-.content{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  .categories {
     text-align: center;
-    .cardComponent{
-        flex: 1 0 18%;
-        display: flex;
-        justify-content: center;
+    select {
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+  .orderBy {
+    text-align: center;
+    select {
+        padding: 5px;
+        border-radius: 5px;
       }
   }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+  .cardComponent {
+    flex: 1 0 18%;
+    display: flex;
+    justify-content: center;
+  }
+}

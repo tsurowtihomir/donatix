@@ -5,6 +5,7 @@
     <div class="categories">{{ getCategories(product.categories) }}</div>
     <div class="desc">{{ filterText(product.short_description) }}</div>
     <div class="button">
+      <div class="price">{{ product.prices.price + "  " + product.prices.currency_symbol }}</div>
       <AddToCart :url="cartUrl"></AddToCart>
     </div>
   </div>
